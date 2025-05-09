@@ -28,11 +28,19 @@
 
   &.shrink {
     height: $header-shrink-height;
+<<<<<<< HEAD
     background-color: $body-bg; // Warna background saat header menyusut
+=======
+    background-color: $body-bg;
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
   }
 
   &__wrap {
     @include flex(center, space-between);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
     height: 100%;
     padding: 0 2rem;
 
@@ -63,7 +71,11 @@
         width: 0;
         transition: width 0.5s ease;
         height: 2px;
+<<<<<<< HEAD
         background-color: $main-color; // Warna garis bawah aktif/hover
+=======
+        background-color: $main-color;
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
       }
 
       &.active:after,
@@ -78,7 +90,11 @@
       left: 0;
       height: 5rem;
       width: 100%;
+<<<<<<< HEAD
       background-color: $body-bg; // Warna navbar di mobile
+=======
+      background-color: $body-bg;
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
       padding: 0 2rem;
       box-shadow: $box-shadow;
 

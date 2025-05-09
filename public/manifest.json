@@ -15,7 +15,15 @@
     {
       "src": "Logo_1.png",
       "type": "image/png",
+<<<<<<< HEAD
       "sizes": "512x512"
+=======
+<<<<<<< HEAD
+      "sizes": "512x512"
+=======
+      "sizes": "192x192"
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
     }
   ],
   "start_url": ".",

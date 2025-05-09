@@ -2,7 +2,15 @@ import axiosClient from "./axiosClient";
 
 export const category = {
   movie: "movie",
+<<<<<<< HEAD
   chanell: "tv",
+=======
+<<<<<<< HEAD
+  chanell: "tv",
+=======
+  tv: "tv",
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
 };
 
 export const movieType = {

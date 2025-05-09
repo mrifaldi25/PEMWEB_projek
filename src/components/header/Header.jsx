@@ -17,7 +17,15 @@ const headerNav = [
     path: `/${Config.HOME_PAGE}/movie`,
   },
   {
+<<<<<<< HEAD
     display: "Channel",
+=======
+<<<<<<< HEAD
+    display: "Chanell",
+=======
+    display: "TV Series",
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
     path: `/${Config.HOME_PAGE}/tv`,
   },
 ];
@@ -47,7 +55,10 @@ const Header = () => {
     };
   }, []);
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> 93b04b535e836a6c9ad8fe4c097824d3a81126de
   return (
     <div ref={headerRef} className="header">
       <div className="header__wrap container">
