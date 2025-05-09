@@ -6,6 +6,14 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+.footer_content_credit{
+  position: absolute;
+  bottom: 1rem;
+  text-align: right;
+  font-size: 1,2rem;
+  font-weight: 500;
+  color: white;
+}
 
   &__content {
     max-width: 1000px;

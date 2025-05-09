@@ -17,7 +17,7 @@ const headerNav = [
     path: `/${Config.HOME_PAGE}/movie`,
   },
   {
-    display: "Chanell",
+    display: "Channel",
     path: `/${Config.HOME_PAGE}/tv`,
   },
 ];

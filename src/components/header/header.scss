@@ -28,12 +28,11 @@
 
   &.shrink {
     height: $header-shrink-height;
-    background-color: $body-bg;
+    background-color: $body-bg; // Warna background saat header menyusut
   }
 
   &__wrap {
     @include flex(center, space-between);
-
     height: 100%;
     padding: 0 2rem;
 
@@ -64,7 +63,7 @@
         width: 0;
         transition: width 0.5s ease;
         height: 2px;
-        background-color: $main-color;
+        background-color: $main-color; // Warna garis bawah aktif/hover
       }
 
       &.active:after,
@@ -79,7 +78,7 @@
       left: 0;
       height: 5rem;
       width: 100%;
-      background-color: $body-bg;
+      background-color: $body-bg; // Warna navbar di mobile
       padding: 0 2rem;
       box-shadow: $box-shadow;
 
