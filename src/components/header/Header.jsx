@@ -17,7 +17,11 @@ const headerNav = [
     path: `/${Config.HOME_PAGE}/movie`,
   },
   {
+<<<<<<< HEAD
     display: "Chanell",
+=======
+    display: "TV Series",
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
     path: `/${Config.HOME_PAGE}/tv`,
   },
 ];

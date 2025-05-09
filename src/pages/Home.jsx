@@ -37,7 +37,11 @@ const Home = () => {
 
         <div className="section mb-3">
           <div className="section__header mb-2">
+<<<<<<< HEAD
             <h2>Trending Chanell</h2>
+=======
+            <h2>Trending TV</h2>
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
             <Link to={`/${Config.HOME_PAGE}/tv`}>
               <OutlineButton className="small">show all</OutlineButton>
             </Link>
@@ -47,7 +51,11 @@ const Home = () => {
 
         <div className="section mb-3">
           <div className="section__header mb-2">
+<<<<<<< HEAD
             <h2>Top Rated Chanell</h2>
+=======
+            <h2>Top Rated TV</h2>
+>>>>>>> 50736c714a2c80c4d582ba08af8ef2207a35569a
             <Link to={`/${Config.HOME_PAGE}/tv`}>
               <OutlineButton className="small">show all</OutlineButton>
             </Link>
